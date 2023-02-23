@@ -22,12 +22,14 @@ public class TPS : MonoBehaviour
     void Update()
     {
         Movimiento();
+        
     }
 
     void Movimiento()
     {
-        float hor = (Input.GetAxis("Horizontal"));
-        float ver = (Input.GetAxis("Vertical"));
+        float hor = Input.GetAxis("Horizontal");
+        float ver = Input.GetAxis("Vertical");
+
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
@@ -38,7 +40,7 @@ public class TPS : MonoBehaviour
             speed = speedW;
         }
 
-        desplazamiento = new Vector3(hor, ver, 0);
+        desplazamiento = new Vector3(hor, 0, ver);
         transform.Translate(desplazamiento * speed * Time.deltaTime);
     }
 }
