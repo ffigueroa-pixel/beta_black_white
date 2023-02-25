@@ -33,5 +33,6 @@ public class TPS : MonoBehaviour
 
         desplazamiento = new Vector3(hor, 0, ver);
         transform.Translate(desplazamiento * speed * Time.deltaTime);
+        transform.Rotate(0, 3*Input.GetAxis("Mouse X"), 0);
     }
 }
