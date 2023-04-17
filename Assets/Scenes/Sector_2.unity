@@ -27147,19 +27147,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 635857979422354965, guid: e215a8c61b11453458589404c2e115af, type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2.289492
+      value: 2.268682
       objectReference: {fileID: 0}
     - target: {fileID: 635857979422354965, guid: e215a8c61b11453458589404c2e115af, type: 3}
       propertyPath: m_FollowOffset.z
-      value: -0.539961
+      value: -0.3423665
       objectReference: {fileID: 0}
     - target: {fileID: 635857979662973635, guid: e215a8c61b11453458589404c2e115af, type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2.289492
+      value: 2.268682
       objectReference: {fileID: 0}
     - target: {fileID: 635857979662973635, guid: e215a8c61b11453458589404c2e115af, type: 3}
       propertyPath: m_FollowOffset.z
-      value: -0.539961
+      value: -0.3423665
       objectReference: {fileID: 0}
     - target: {fileID: 635857980061556927, guid: e215a8c61b11453458589404c2e115af, type: 3}
       propertyPath: m_LocalPosition.x
@@ -27183,19 +27183,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 635857980061556927, guid: e215a8c61b11453458589404c2e115af, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000172341
+      value: 0.0000000172341
       objectReference: {fileID: 0}
     - target: {fileID: 635857980061556927, guid: e215a8c61b11453458589404c2e115af, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 4.4931173e-10
+      value: -4.4931173e-10
       objectReference: {fileID: 0}
     - target: {fileID: 635857980138246071, guid: e215a8c61b11453458589404c2e115af, type: 3}
       propertyPath: m_FollowOffset.y
-      value: 2.289492
+      value: 2.268682
       objectReference: {fileID: 0}
     - target: {fileID: 635857980138246071, guid: e215a8c61b11453458589404c2e115af, type: 3}
       propertyPath: m_FollowOffset.z
-      value: -0.539961
+      value: -0.3423665
       objectReference: {fileID: 0}
     - target: {fileID: 635857980261427370, guid: e215a8c61b11453458589404c2e115af, type: 3}
       propertyPath: m_Follow
